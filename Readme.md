@@ -13,3 +13,5 @@
   
 <br><br>
 <img src="/imagens/logo.png"/>
+
+&reg; 3°bim/2020
