@@ -19,14 +19,18 @@ Sua função deverá exibir a string 'Abaixo do peso' se o imc < 18.5, 'Normal' 
 
 """
 
-peso = eval(input('Digite seu peso: '))
-altura = eval(input('Digite sua altura: '))
 
-imc = peso / (altura ** 2)
+def meu_imc(peso, altura):
+    """
+    Esta função tem o objetivo de calcular o imc, dados os argumentos peso e altura
 
-if imc < 18.5:
-    print('Abaixo do peso')
-elif imc < 25:
-    print('Normal')
-else:
-    print('Sobrepeso')
+    :param peso: informado em Kg (quilos)
+    :param altura: infomado em m (metros)
+    """
+    imc = peso / (altura ** 2)
+    if imc < 18.5:
+        print('Abaixo do peso')
+    elif imc < 25:
+        print('Normal')
+    else:
+        print('Sobrepeso')
