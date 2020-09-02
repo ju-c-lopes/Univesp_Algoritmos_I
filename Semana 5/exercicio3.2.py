@@ -47,6 +47,8 @@ if golpes > 10 and defesas == 0:
 
 ##
 
+# Exercicio d)
+
 position = input('Onde você está? ')
 
 location = ['norte', 'sul', 'leste', 'oeste']
