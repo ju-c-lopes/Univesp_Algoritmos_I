@@ -11,6 +11,7 @@
       <li>Semana 3: Tipos de dados (parte 2)</li>
       <li>Semana 4: Criação de Programas</li>
       <li>Semana 5: Estruturas de condição</li>
+      <li>Semana 6: Estruturas de repetição<li>
     </ul>
   </ul>
   
