@@ -11,6 +11,7 @@
       <li>Semana 4: Criação de Programas</li>
       <li>Semana 5: Estruturas de condição</li>
       <li>Semana 6: Estruturas de repetição</li>
+      <li>Semana 7: Vetores e Matrizes</li>
     </ul>
 
   
