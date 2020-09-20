@@ -1,0 +1,15 @@
+l =[]
+p = (12336, 'Sabão', 1337, 1.37)
+l.append(p)
+p = (13446, 'Arroz 1kg', 3554, 2.65)
+l.append(p)
+p = (13956, 'Fubá 500g', 439, 1.19)
+l.append(p)
+print('Lista de Produtos em Estoque\n')
+for (cod, nome, qtde, pcunit) in l:
+    print('Identificação do Produto: ', cod)
+    print(' Descrição: ', nome)
+    print(' Estoque = {0} a R$ {1:.2f}'.format(qtde, pcunit))
+    print(' Total desde produto = R$ {0:.2f}'.format(qtde * pcunit))
+    print()
+print('\nFim do Programa')
